@@ -12,8 +12,8 @@ import java.awt.event.WindowEvent;
  * @author 影随风
  */
 public class MyGameFrame extends JFrame {
-    public static int GAME_WIDTH = 500;
-    public static int GAME_HEIGHT = 500;
+    public static int GAME_WIDTH = 600;
+    public static int GAME_HEIGHT = 600;
     Image planeImg = GameUtil.getImage("images/plane.png");
     Image bg = GameUtil.getImage("images/bg.jpg");
     Plane plane = new Plane(planeImg, 250, 250);
